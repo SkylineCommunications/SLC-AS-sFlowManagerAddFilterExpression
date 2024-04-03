@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DMSScript options="272" xmlns="http://www.skyline.be/automation">
+	<Name>SLC-AS-sFlowManagerAddFilterExpression</Name>
+	<Description></Description>
+	<Type>Automation</Type>
+	<Author>SKYLINE2\RDM</Author>
+	<CheckSets>FALSE</CheckSets>
+	<Folder>DataMiner Solutions/sFlow</Folder>
+	
+	<Protocols>
+		<Protocol id="1">
+			<Description>sFlow Manager</Description>
+			<Name>Generic sFlow Manager</Name>
+			<Version>Production</Version>
+			<DefaultElement>
+			</DefaultElement>
+		</Protocol>
+	</Protocols>
+
+	<Memory>
+	</Memory>
+
+	<Parameters>
+	</Parameters>
+
+	<Script>
+		<Exe id="1" type="csharp">
+			<Value><![CDATA[[Project:SLC-AS-sFlowManagerAddFilterExpression_1]]]></Value>
+			<!--<Param type="debug">true</Param>-->
+			<Message></Message>
+		</Exe>
+	</Script>
+</DMSScript>
